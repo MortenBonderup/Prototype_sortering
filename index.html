@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekday Info Cards</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="content-container">
+    <div class="weekdays">
+        <button onclick="showInfo('monday')">Monday</button>
+        <button onclick="showInfo('tuesday')">Tuesday</button>
+        <button onclick="showInfo('wednesday')">Wednesday</button>
+        <button onclick="showInfo('thursday')">Thursday</button>
+        <button onclick="showInfo('friday')">Friday</button>
+        <button onclick="showInfo('saturday')">Saturday</button>
+        <button onclick="showInfo('sunday')">Sunday</button>
+    </div>
+    
+    <div id="info-cards">
+        <div id="monday" class="card" style="display: none;">
+            <div class="card-content">Info for Monday - Card 1</div>
+            <div class="card-content">Info for Monday - Card 2</div>
+        </div>
+        <div id="tuesday" class="card" style="display: none;">
+            <div class="card-content">Info for Tuesday - Card 1</div>
+            <div class="card-content">Info for Tuesday - Card 2</div>
+        </div>
+        <div id="wednesday" class="card" style="display: none;">
+            <div class="card-content">Info for Wednesday - Card 1</div>
+            <div class="card-content">Info for Wednesday - Card 2</div>
+        </div>
+        <div id="thursday" class="card" style="display: none;">
+            <div class="card-content">Info for Thursday - Card 1</div>
+            <div class="card-content">Info for Thursday - Card 2</div>
+        </div>
+        <div id="friday" class="card" style="display: none;">
+            <div class="card-content">Info for Friday - Card 1</div>
+            <div class="card-content">Info for Friday - Card 2</div>
+        </div>
+        <div id="saturday" class="card" style="display: none;">
+            <div class="card-content">Info for Saturday - Card 1</div>
+            <div class="card-content">Info for Saturday - Card 2</div>
+        </div>
+        <div id="sunday" class="card" style="display: none;">
+            <div class="card-content">Info for Sunday - Card 1</div>
+            <div class="card-content">Info for Sunday - Card 2</div>
+        </div>
+    </div>
+</div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
